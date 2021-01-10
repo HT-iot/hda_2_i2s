@@ -1,0 +1,65 @@
+[  547.854921] check_position_fix: snd_hda_intel 0000:00:1f.3: Using SKL position fix
+[  547.854923] azx_bus_init: snd_hda_intel 0000:00:1f.3: Enable sync_write for stable communication
+[  547.854972] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[  547.854974] snd_hdac_display_power: snd_hda_intel 0000:00:1f.3: display power enable
+[  547.854976] snd_hdac_set_codec_wakeup: snd_hda_intel 0000:00:1f.3: enable codec wakeup
+[  547.858454] snd_hdac_set_codec_wakeup: snd_hda_intel 0000:00:1f.3: disable codec wakeup
+[  547.860017] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: Capability version: 0x0
+[  547.860018] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: HDA capability ID: 0x2
+[  547.860019] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: Found ML capability
+[  547.860023] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: Capability version: 0x0
+[  547.860024] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: HDA capability ID: 0x3
+[  547.860025] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: Found PP capability offset=800
+[  547.860029] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: Capability version: 0x0
+[  547.860030] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: HDA capability ID: 0x1
+[  547.860031] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: Found GTS capability offset=500
+[  547.860035] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: Capability version: 0x0
+[  547.860036] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: HDA capability ID: 0x5
+[  547.860036] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: Found DRSM capability
+[  547.860040] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: Capability version: 0x0
+[  547.860041] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: HDA capability ID: 0x4
+[  547.860042] snd_hdac_bus_parse_capabilities: snd_hda_intel 0000:00:1f.3: Found SPB capability
+[  547.860096] azx_first_init: snd_hda_intel 0000:00:1f.3: chipset global capabilities = 0x9701
+[  547.860108] azx_init_pci: snd_hda_intel 0000:00:1f.3: Clearing TCSEL
+[  547.860117] azx_init_pci: snd_hda_intel 0000:00:1f.3: SCH snoop: Enabled
+[  547.860118] snd_hdac_set_codec_wakeup: snd_hda_intel 0000:00:1f.3: enable codec wakeup
+[  547.867768] snd_hdac_bus_reset_link: snd_hda_intel 0000:00:1f.3: codec_mask = 0x5
+[  547.867779] snd_hdac_set_codec_wakeup: snd_hda_intel 0000:00:1f.3: disable codec wakeup
+[  547.869389] probe_codec: snd_hda_intel 0000:00:1f.3: codec #0 probed OK
+[  547.869446] probe_codec: snd_hda_intel 0000:00:1f.3: codec #2 probed OK
+[  547.869447] snd_hda_codec_device_init: snd_hda_intel 0000:00:1f.3: snd_hda_codec_device_init: entry
+[  547.869825] snd_hda_codec_device_new: snd_hda_intel 0000:00:1f.3: snd_hda_codec_device_new: entry
+[  547.873143] snd_hda_codec_device_init: snd_hda_intel 0000:00:1f.3: snd_hda_codec_device_init: entry
+[  547.873510] snd_hda_codec_device_new: snd_hda_intel 0000:00:1f.3: snd_hda_codec_device_new: entry
+[  547.888556] alc_auto_parse_customize_define: snd_hda_codec_realtek hdaudioC0D0: SKU: Nid=0x1d sku_cfg=0x40500001
+[  547.888557] alc_auto_parse_customize_define: snd_hda_codec_realtek hdaudioC0D0: SKU: port_connectivity=0x1
+[  547.888558] alc_auto_parse_customize_define: snd_hda_codec_realtek hdaudioC0D0: SKU: enable_pcbeep=0x1
+[  547.888559] alc_auto_parse_customize_define: snd_hda_codec_realtek hdaudioC0D0: SKU: check_sum=0x00000000
+[  547.888560] alc_auto_parse_customize_define: snd_hda_codec_realtek hdaudioC0D0: SKU: customization=0x00000000
+[  547.888561] alc_auto_parse_customize_define: snd_hda_codec_realtek hdaudioC0D0: SKU: external_amp=0x0
+[  547.888562] alc_auto_parse_customize_define: snd_hda_codec_realtek hdaudioC0D0: SKU: platform_type=0x0
+[  547.888563] alc_auto_parse_customize_define: snd_hda_codec_realtek hdaudioC0D0: SKU: swap=0x0
+[  547.888564] alc_auto_parse_customize_define: snd_hda_codec_realtek hdaudioC0D0: SKU: override=0x1
+[  547.888707] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC283: line_outs=1 (0x21/0x0/0x0/0x0/0x0) type:hp
+[  547.888708] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[  547.888709] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[  547.888710] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[  547.888710] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[  547.888713] snd_hda_codec_realtek hdaudioC0D0:      Mic=0x19
+[  547.888715] alc_subsystem_id: snd_hda_codec_realtek hdaudioC0D0: realtek: No valid SSID, checking pincfg 0x40500001 for NID 0x1d
+[  547.888716] alc_subsystem_id: snd_hda_codec_realtek hdaudioC0D0: realtek: Enabling init ASM_ID=0x0001 CODEC_ID=10ec0283
+[  547.889472] parse_output_paths: snd_hda_codec_realtek hdaudioC0D0: ==> lo_type=2, wired=1, mio=1, badness=0x0
+[  547.889474] debug_show_configs: snd_hda_codec_realtek hdaudioC0D0: multi_outs = 21/0/0/0 : 2/0/0/0 (type HP)
+[  547.889476] print_nid_path: snd_hda_codec_realtek hdaudioC0D0:   out path: depth=3 '02:0c:21'
+[  547.889477] parse_output_paths: snd_hda_codec_realtek hdaudioC0D0: ==> Best config: lo_type=2, wired=1, mio=1
+[  547.889478] debug_show_configs: snd_hda_codec_realtek hdaudioC0D0: multi_outs = 21/0/0/0 : 2/0/0/0 (type HP)
+[  547.889479] print_nid_path: snd_hda_codec_realtek hdaudioC0D0:   out path: depth=3 '02:0c:21'
+[  547.889577] print_nid_path: snd_hda_codec_realtek hdaudioC0D0: loopback path: depth=2 '19:0b'
+[  547.889907] print_nid_path: snd_hda_codec_realtek hdaudioC0D0: input path: depth=3 '19:23:08'
+[  547.890240] print_nid_path: snd_hda_codec_realtek hdaudioC0D0: input path: depth=3 '19:22:09'
+[  547.890406] check_dyn_adc_switch: snd_hda_codec_realtek hdaudioC0D0: reducing to a single ADC
+[  547.949145] generic_hdmi_build_pcms: snd_hda_codec_hdmi hdaudioC0D2: hdmi: pcm_num set to 5
+[  547.950864] snd_hdac_display_power: snd_hda_intel 0000:00:1f.3: display power enable
+[  547.952408] snd_hdac_display_power: snd_hda_intel 0000:00:1f.3: display power disable
+[  547.954805] snd_hdac_display_power: snd_hda_intel 0000:00:1f.3: display power disable
+[  547.972822] snd_hdac_display_power: snd_hda_intel 0000:00:1f.3: display power disable
