@@ -1,0 +1,12 @@
+
+# ubuntu 20.04
+# open "root console" and then
+sudo -i
+
+# Enter the dynamic_debug
+cd /sys/kernel/debug/dynamic_debug
+
+
+echo -n "file sound/hda/* +pf" > control
+echo -n "file sound/pci/hda/* +pf" > control
+cat control |grep snd_hda
