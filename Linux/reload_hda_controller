@@ -1,0 +1,19 @@
+#ubuntu 20.04
+
+#install the alsa tool
+sudo apt install alsa-tools alsa-base alsa-utils
+
+#install apt file
+sudo apt install apt-file
+
+#check the alsa tools
+sudo apt-file list alsa-tools
+sudo apt-file list alsa-utils
+
+#reload the alsa driver, which include the hda controller driver snd_hda_intel
+
+# put the system in text mode, release the application which use the audio server and codec
+sudo init 3
+
+# reload the code
+sudo alsa force-unload
